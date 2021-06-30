@@ -130,8 +130,9 @@ deploy(){
     curl --silent --fail ${K3D_URL} | TAG=${K3D_VERSION} bash
 
     echo -e "\existing_network${YELLOW}Deploy cluster ${CYAN}$name ${NC}"
-    eval "k3d cluster create $name --wait $arguments --network $network $registryArg"
-    wait_for_nodes
+#    echo $arguments
+#    eval "k3d cluster create $name --wait $arguments --network $network $registryArg"
+#    wait_for_nodes
 }
 
 # see: https://rancher.com/docs/k3s/latest/en/installation/private-registry/#mirrors
