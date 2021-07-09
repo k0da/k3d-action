@@ -71,8 +71,8 @@ To prevent potential issues due to usage such versions, the k3d version is prede
 | v1.1.0     |  [v3.4.0](https://github.com/rancher/k3d/releases/tag/v3.4.0) | [rancher/k3s:v1.20.2-k3s1](https://github.com/k3s-io/k3s/releases/tag/v1.20.2%2Bk3s1)|
 | v1.2.0     |  [v4.2.0](https://github.com/rancher/k3d/releases/tag/v4.2.0) | [rancher/k3s:v1.20.2-k3s1](https://github.com/k3s-io/k3s/releases/tag/v1.20.2%2Bk3s1)|
 | v1.3.0     |  [v4.2.0](https://github.com/rancher/k3d/releases/tag/v4.2.0) | [rancher/k3s:v1.20.4-k3s1](https://github.com/k3s-io/k3s/releases/tag/v1.20.4%2Bk3s1)|
-| v1.4.0     |  [v4.4.1](https://github.com/rancher/k3d/releases/tag/v4.4.1) | specified by k3d or [set image explicitly](https://hub.docker.com/r/rancher/k3s/tags?page=1&ordering=last_updated)|
-| v1.5.0     |  [v4.4.6](https://github.com/rancher/k3d/releases/tag/v4.4.6) | specified by k3d or [set image explicitly](https://hub.docker.com/r/rancher/k3s/tags?page=1&ordering=last_updated)|
+| v1.4.0     |  [v4.4.1](https://github.com/rancher/k3d/releases/tag/v4.4.1) | [rancher/k3s:v1.20.8-k3s1](https://github.com/k3s-io/k3s/releases/tag/v1.20.8%2Bk3s1) or [set image explicitly](https://hub.docker.com/r/rancher/k3s/tags?page=1&ordering=last_updated)|
+| v1.5.0     |  [v4.4.7](https://github.com/rancher/k3d/releases/tag/v4.4.7) | [rancher/k3s:v1.21.2-k3s1](https://github.com/k3s-io/k3s/releases/tag/v1.21.2%2Bk3s1) or [set image explicitly](https://hub.docker.com/r/rancher/k3s/tags?page=1&ordering=last_updated)|
 
 From `v1.4.0` would k3d-action users set k3s version explicitly via [configuration](#config-file-support) or 
 argument e.g.`--image docker.io/rancher/k3s:v1.20.4-k3s1` otherwise k3d specifies which version will be used. 
